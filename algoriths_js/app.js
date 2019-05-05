@@ -133,6 +133,28 @@ function descendingOrder(n){
 }
 
 
+//find the largest number in each array
 
-one thousand three hundred sixty two
+// function largestNumberArray(arrayyy){
+//     var maxes = [];
+//     for(let i = 0; i < arrayyy.length; i++){
+//         // console.log(arrayyy[i])
+//         for(let i = 0; i < arrayyy[i].length; i ++){
+
+//         }
+//     }
+// }
+
+// largestNumberArray([[4,2,8,6],[45,34,2,6],[55,2,54,4],[5,73,43,54]])
+
+
+//binary search
+
+let biArray = [3,4,5,873,654,754,765,34,43,8,43,2343]
+
+let sorttedBiArray = biArray.sort(function(a,b){
+    return a - b
+})  
+console.log(sorttedBiArray)
+
 

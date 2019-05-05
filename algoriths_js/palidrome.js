@@ -98,3 +98,46 @@ function factorialize(num){
     console.log(result)
 }
 factorialize(5)
+
+//factorial
+function fact (numm){
+    let resultss = 1;
+    for(let i =1; i <=numm; i++){
+        resultss = resultss * i
+    }
+    console.log(resultss)
+}
+fact(6)
+
+
+
+
+//reverse string
+
+// function reverseString(str){
+//     let strArr = str.split('')
+//     let reverseStringArr = strArr.reverse();
+//     let reversedString = reverseStringArr.join(' ')
+//     console.log(reversedString)
+//     // return reversedString
+
+// }
+// reverseString('Hello')
+
+
+//best way reverse string
+function reverseString(str){
+    return str.split('').reverse().join('')
+}
+console.log(reverseString('Hello'))
+
+
+//from scratch
+function reverseStringg(strrr){
+    let final = '';
+    for(let i = strrr.length - 1; i >= 0; i--){
+        final += strrr[i];
+    }
+    return final
+}
+console.log(reverseStringg('hello'))
